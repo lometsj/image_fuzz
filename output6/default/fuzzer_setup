@@ -1,0 +1,4 @@
+# environment variables:
+AFL_DISABLE_TRIM=1
+# command line:
+'/home/kamille/AFLplusplus/afl-fuzz' '-i' 'seed' '-o' 'output6' '-m' '1000000' '-t' '100000000+' '--' './build/linux/x86_64/debug/image_fuzz' '@@'

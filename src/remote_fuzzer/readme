@@ -1,0 +1,7 @@
+remote fuzzer behavier
+
+1. say hello to host when connect
+2. parse request from host
+3. do fuzzer
+4. collect kcov
+5. send response to host

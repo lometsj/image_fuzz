@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "compare": "c",
+        "kcov.h": "c",
+        "ostream": "c"
+    }
+}

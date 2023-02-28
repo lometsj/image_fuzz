@@ -1,0 +1,21 @@
+[
+{
+  "directory": "/home/kamille/Documents/fuzz_eulerfs_workspace/image_fuzz",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-static", "-o", "build/.objs/remote_fuzzer/linux/x86_64/debug/src/remote_fuzzer/remote_fuzzer.c.o", "src/remote_fuzzer/remote_fuzzer.c"],
+  "file": "src/remote_fuzzer/remote_fuzzer.c"
+},
+{
+  "directory": "/home/kamille/Documents/fuzz_eulerfs_workspace/image_fuzz",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-static", "-o", "build/.objs/remote_fuzzer/linux/x86_64/debug/src/remote_fuzzer/kcov.c.o", "src/remote_fuzzer/kcov.c"],
+  "file": "src/remote_fuzzer/kcov.c"
+},
+{
+  "directory": "/home/kamille/Documents/fuzz_eulerfs_workspace/image_fuzz",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-static", "-o", "build/.objs/remote_fuzzer/linux/x86_64/debug/src/remote_fuzzer/wait.c.o", "src/remote_fuzzer/wait.c"],
+  "file": "src/remote_fuzzer/wait.c"
+},
+{
+  "directory": "/home/kamille/Documents/fuzz_eulerfs_workspace/image_fuzz",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-I/usr/include/vmware-vix", "-o", "build/.objs/image_fuzz/linux/x86_64/debug/src/fuzz_manager/main.c.o", "src/fuzz_manager/main.c"],
+  "file": "src/fuzz_manager/main.c"
+}]
